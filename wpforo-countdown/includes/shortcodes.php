@@ -36,8 +36,8 @@ function wpcd_countdown_shortcode($atts, $content = null) {
         <div class="wpcd-countdown-display" style="display:none;">
             <div class="wpcd-countdown-timer">
                 <svg viewBox="0 0 36 36">
-                    <circle class="circle" cx="18" cy="18" r="15"></circle>
-                    <text class="time-left" x="18" y="18" text-anchor="middle" dy=".3em"><?php echo esc_attr($atts['duration']); ?></text>
+                    <circle class="circle" cx="19" cy="19" r="16"></circle>
+                    <text class="time-left" x="37" y="33" text-anchor="middle" dy=".3em"><?php echo esc_attr($atts['duration']); ?></text>
                 </svg>
             </div>
         </div>
