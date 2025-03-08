@@ -1,0 +1,29 @@
+/* custom-icons.css */
+
+/* Icona per il plugin Codesample (Font Awesome) */
+#wpforo #wpforo-wrap .mce-toolbar .mce-ico.mce-i-codesample::before {
+ font-family: "Font Awesome 6 free"!important;
+ content: '\f121'!important;
+ font-weight:bold!important;
+	font-size: 90%;
+}
+
+/* Icona per il plugin Fullscreen */
+.mce-i-fullscreen::before {
+    content: '\e020'; /* Icona schermo intero */
+}
+
+/* Icona per il plugin Table */
+.mce-i-table::before {
+    content: '\e021'; /* Icona tabella */
+}
+
+/* Icona per il plugin Media */
+.mce-i-media::before {
+    content: '\e022'; /* Icona multimediale */
+}
+
+/* Icona per il plugin Help */
+.mce-i-help::before {
+    content: '\e023'; /* Icona aiuto */
+}
